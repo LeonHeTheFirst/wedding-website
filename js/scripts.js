@@ -187,7 +187,7 @@ $(document).ready(function () {
             title: "Leon and Natalie's Wedding",
 
             // Event start date
-            start: new Date('Jan 1, 2021 17:00'),
+            start: new Date('May 8, 2021 17:00'),
 
             // Event duration (IN MINUTES)
             duration: 240,
@@ -197,7 +197,7 @@ $(document).ready(function () {
             // end: new Date('Nov 29, 2017 00:00'),
 
             // Event Address
-            address: 'Boca Raton, FL',
+            address: 'Woburn, MA',
 
             // Event Description
             description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Yuguang He at (978) 902-7074."
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 26.358740, lng: -80.078610};
+    var location = {lat: 42.511162, lng: -71.165160};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -255,7 +255,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lat: 26.358740, lng: -80.078610};
+    var la_fiesta = {lat: 42.511162, lng: -71.165160};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: la_fiesta,
